@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v2
       # run – произвольная bash-команда
       # make say-hello запустит приветствие
-      -run: make say-hello
+      - run: make say-hello
