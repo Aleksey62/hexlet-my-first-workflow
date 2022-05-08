@@ -11,7 +11,7 @@ jobs:
     steps: # список шагов, которые надо выполнить
       # экшен, выполняет какую-то задачу
       # checkout – клонирует репозиторий
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       # run – произвольная bash-команда
       # make say-hello запустит приветствие
       -run: make say-hello
